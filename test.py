@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from selenium import webdriver
+import chromedriver_binary
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
